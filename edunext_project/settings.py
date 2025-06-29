@@ -163,3 +163,5 @@ STATIC_URL = '/static/'
 if os.environ.get('RENDER'):
     ALLOWED_HOSTS = ['*']
     DEBUG = False
+
+SECRET_KEY = 'django-insecure-...'
