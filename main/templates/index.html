@@ -1,0 +1,1590 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tag
+  -->
+    <title>ELearning - The Best Program to Enroll for Exchange</title>
+    <meta
+      name="title"
+      content="ELearning - The Best Program to Enroll for Exchange"
+    />
+    <meta
+      name="description"
+      content="This is an education html template made by Karannannaware"
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="{% static 'images/favicon.svg' %}"
+      type="image/svg+xml"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
+
+    <!--  particles js link-->
+    <!--  particles js link-->
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="{% static 'images/hero-bg.svg' %}" />
+    <link rel="preload" as="image" href="{% static 'images/sd.jpg' %}" />
+    <link rel="preload" as="image" href="{% static 'images/banner.png' %}" />
+    <link
+      rel="preload"
+      as="image"
+      href="{% static 'images/hero-shape-1.svg' %}"
+    />
+
+    <link
+      rel="preload"
+      as="image"
+      href="{% static 'images/hero-shape-2.png' %}"
+    />
+  </head>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <!-- <img src="./assets/images/logo.svg" width="162" height="50" alt="EduWeb logo"> -->
+          <h1
+            style="
+              color: rgb(172, 142, 142);
+              font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                'Helvetica Neue', sans-serif;
+            "
+          >
+            <b>EduWeb </b>
+          </h1>
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="wrapper">
+            <a href="#" class="logo">
+              <img
+                src="{% static 'images/lightbulb-logo.svg' %}"
+                width="162"
+                height="50"
+                alt="Lightbulb Idea Logo"
+              />
+
+              <!-- <img src="./assets/images/logo.svg" width="162" height="50" alt="EduWeb logo"> -->
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#courses" class="navbar-link" data-nav-link>Courses</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#blog" class="navbar-link" data-nav-link>Services</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <button
+            class="header-action-btn"
+            aria-label="toggle search"
+            title="Search"
+          >
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <button class="header-action-btn" aria-label="cart" title="Cart">
+            <ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
+
+            <span class="btn-badge">0</span>
+          </button>
+
+          <a href="#" class="btn has-before">
+            <span class="span">Limited Seat</span>
+
+            <ion-icon
+              name="arrow-forward-outline"
+              aria-hidden="true"
+            ></ion-icon>
+          </a>
+
+          <button
+            class="header-action-btn"
+            aria-label="open menu"
+            data-nav-toggler
+          >
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section
+          class="section hero has-bg-image"
+          id="home"
+          aria-label="home"
+          style="background-image: url('{% static 'images/hero-bg.svg' %}')"
+>
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 section-title" style="font-family: cursive">
+                Best Exchange Program – <span class="span">Enroll</span> Now!
+              </h1>
+
+              <p class="hero-text">
+                Unlock Your Potential – Learn, Grow, Succeed.
+              </p>
+
+              <a href="#" class="btn has-before">
+                <span class="span">Enroll Now</span>
+
+                <ion-icon
+                  name="arrow-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </div>
+
+            <figure class="hero-banner">
+              <div class="img-holder one" style="--width: 290; --height: 300;">
+                <img
+                  src="{% static 'images/sdn4.png' %}"
+                  width="270"
+                  height="300"
+                  alt="hero banner"
+                  class="img-cover"
+                />
+              </div>
+
+              <div class="img-holder two" style="--width: 250; --height: 358">
+                <img
+                  src="{% static 'images/banner.png' %}"
+                  width="250"
+                  height="358"
+                  alt="hero banner"
+                  class="img-cover"
+                />
+              </div>
+
+              <img
+                src="{% static 'images/hero-shape-1.svg' %}"
+                width="380"
+                height="190"
+                alt=""
+                class="shape hero-shape-1"
+              />
+
+              <img
+                src="{% static 'images/hero-shape-2.png' %}"
+                width="622"
+                height="551"
+                alt=""
+                class="shape hero-shape-2"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+        - #CATEGORY SECTIONS
+      -->
+
+        <section class="section category" aria-label="category">
+          <div class="container">
+            <!-- <p class="section-subtitle"> Top Categories</p> -->
+
+            <h2 class="h2 section-title">
+              Top<span class="span">Categories</span>
+            </h2>
+
+            <p class="section-text" style="color: rgb(118, 40, 4)">
+              <b>Crafting Solutions, Creating Impact. </b>
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="category-card" style="--color: 170, 75%, 41%">
+                  <div class="card-icon">
+                    <img
+                      src="{% static 'images/category-1.svg' %}"
+                      width="40"
+                      height="40"
+                      loading="lazy"
+                      alt="Certified Degree Programs"
+                      class="img"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Certified Degree Programs</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Explore structured courses designed for carees and growths.
+                  </p>
+
+                  <span class="card-badge">8 Courses</span>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-card" style="--color: 351, 83%, 61%">
+                  <div class="card-icon">
+                    <img
+                      src="{% static 'images/category-2.svg' %}"
+                      width="40"
+                      height="45"
+                      loading="lazy"
+                      alt="Professional Certificates"
+                      class="img"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Professional Certificates</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Gain industry-recognized credentials to boost your career.
+                  </p>
+
+                  <span class="card-badge">4 Courses</span>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-card" style="--color: 42, 94%, 55%">
+                  <div class="card-icon">
+                    <img
+                      src="{% static 'images/category-4.svg' %}"
+                      width="40"
+                      height="40"
+                      loading="lazy"
+                      alt="Blended Learning Programs"
+                      class="img"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Blended Learning Programs</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Combine online and in-person learning for a holistic
+                    experience.
+                  </p>
+
+                  <span class="card-badge">7 Courses</span>
+                </div>
+              </li>
+              <li>
+                <div class="category-card" style="--color: 170, 75%, 41%">
+                  <div class="card-icon">
+                    <img
+                      src="{% static 'images/category-1.svg' %}"
+                      width="40"
+                      height="40"
+                      loading="lazy"
+                      alt="On-Demand Courses"
+                      class="img"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title"
+                      >On-Demand <br />
+                      Courses</a
+                    >
+                  </h3>
+
+                  <p class="card-text">
+                    Combine the flexibility of online learning engagement
+                    interactions.
+                  </p>
+
+                  <span class="card-badge">6 Courses</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section class="section about" id="about" aria-label="about">
+          <div class="container">
+            <figure class="about-banner">
+              <div class="img-holder" style="--width: 520; --height: 370">
+                <img
+                  src="{% static 'images/tt.webp' %}"
+                  width="520"
+                  height="370"
+                  loading="lazy"
+                  alt="about banner"
+                  class="img-cover"
+                />
+              </div>
+              {% comment %}
+              <img
+                src="{% static 'images/about-shape-1.svg' %}"
+                width="360"
+                height="420"
+                loading="lazy"
+                alt=""
+                class="shape about-shape-1"
+              />
+              {% endcomment %}
+
+              <img
+                src="{% static 'images/about-shape-2.svg' %}"
+                width="371"
+                height="220"
+                loading="lazy"
+                alt=""
+                class="shape about-shape-2"
+              />
+
+              <img
+                src="{% static 'images/about-shape-3.png' %}"
+                width="722"
+                height="528"
+                loading="lazy"
+                alt=""
+                class="shape about-shape-3"
+              />
+            </figure>
+
+            <div class="about-content">
+              <p class="section-subtitle"><b> About Us</b></p>
+
+              <h2 class="h2 section-title">
+                Learn & Grow<span class="span">Your Skills</span> From
+                <span style="color: rgb(220, 16, 135)">Anywhere</span>
+              </h2>
+
+              <p class="section-text">
+                Unlock your full potential by learning at your own pace,
+                anywhere and anytime. With a wide variety of courses, resources,
+                and expert instructors, you'll be equipped to master new skills
+                and achieve your personal and professional goals.
+              </p>
+
+              <ul class="about-list">
+                <li class="about-item">
+                  <ion-icon
+                    name="checkmark-done-outline"
+                    aria-hidden="true"
+                  ></ion-icon>
+
+                  <span class="span" style="color: rgb(219, 14, 83)"
+                    >Expert Trainers</span
+                  >
+                </li>
+
+                <li class="about-item">
+                  <ion-icon
+                    name="checkmark-done-outline"
+                    aria-hidden="true"
+                  ></ion-icon>
+
+                  <span class="span" style="color: rgb(219, 14, 83)"
+                    >Online/Offline Batch</span
+                  >
+                </li>
+
+                <li class="about-item">
+                  <ion-icon
+                    name="checkmark-done-outline"
+                    aria-hidden="true"
+                  ></ion-icon>
+
+                  <span class="span" style="color: rgb(219, 14, 83)"
+                    >Lifetime Access</span
+                  >
+                </li>
+              </ul>
+
+              <img
+                src="{% static 'images/about-shape-4.svg' %}"
+                width="100"
+                height="100"
+                loading="lazy"
+                alt=""
+                class="shape about-shape-4"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #COURSE
+      -->
+        <section class="section course" id="courses" aria-label="course" style='margin: top -50px;'>
+          <div class="container">
+            <!-- <p class="section-subtitle" style="color: rgb(219, 23, 23);"><b> Popular Courses </b></p> -->
+
+            <h2 class="h2 section-title" ; style="color: rgb(208, 48, 12)">
+              <u><b>Popular Courses</b></u>
+            </h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 280; --height: 130"
+                  >
+                    <img src="{% static 'images/MERN.png' %}" width="364"
+                    height="430" loading="lazy" alt="Build Responsive Real-
+                    World Websites with HTML ,CSS , JavaScript and BootStrap"
+                    class="img-cover; style="img-cover">
+                  </figure>
+
+                  <div class="abs-badge">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="span">55 Lessions</span>
+                  </div>
+
+                  <div class="card-content">
+                    <span class="badge">Beginner to Advanced</span>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">
+                        MERN Full Stack Development</a
+                      >
+                    </h3>
+
+                    <div class="wrapper">
+                      <div class="rating-wrapper">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+
+                      <p class="rating-text">(8.0/10 Rating)</p>
+                    </div>
+
+                    <data class="price" value="29">Mode: Online</data>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="library-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">Thapa Technical</span>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="people-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">200K+ Views</span>
+                      </li>
+                    </ul>
+                    <center>
+                      <a
+                        href="https://youtu.be/IymPq7ik29k?si=kQh6IIJMXLEtcS70"
+                        target="_blank"
+                      >
+                        <button
+                          style="
+                            background: linear-gradient(
+                              135deg,
+                              rgb(22, 72, 181),
+                              rgb(0, 48, 181)
+                            );
+                            color: white;
+                            border: none;
+                            width: 300px;
+                            height: 42px;
+                            border-radius: 12px;
+                            padding: 12px 28px;
+                            font-size: 16px;
+                            font-weight: bold;
+                            cursor: pointer;
+                            box-shadow: 0 8px 16px rgba(130, 20, 130, 0.85);
+                            transition: all 0.3s ease;
+                          "
+                          onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.3)'"
+                          onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 8px 16px rgba(0, 0, 0, 0.2)'"
+                        >
+                          ▶ Watch Now
+                        </button>
+                      </a>
+                    </center>
+                  </div>
+                </div>
+              
+
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 280; --height: 130"
+                  >
+                    <img src="{% static 'images/wscube.png' %}" width="364"
+                    height="430" loading="lazy" alt="Python Programming
+                    Masterclass for Software Developers" class="img-cover;
+                    style="image-cover">
+                  </figure>
+
+                  <div class="abs-badge">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="span">16 HOURS</span>
+                  </div>
+
+                  <div class="card-content">
+                    <span class="badge">Beginner to Advanced</span>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Python Full Course</a>
+                    </h3>
+
+                    <div class="wrapper">
+                      <div class="rating-wrapper">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+
+                      <p class="rating-text">(8.5 /9 Rating)</p>
+                    </div>
+
+                    <data class="price" value="49">Mode: Online</data>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="library-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">WsCube Tech</span>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="people-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">7 Millions+ Views</span>
+                      </li>
+                    </ul>
+                    <center>
+                      <a
+                        href="https://youtu.be/sCOw5y1RQpY?si=UznXUmgZSZ_38VzK"
+                        target="_blank"
+                      >
+                        <button
+                          style="
+                            background: linear-gradient(
+                              135deg,
+                              rgb(22, 72, 181),
+                              rgb(0, 48, 181)
+                            );
+                            color: white;
+                            border: none;
+                            width: 300px;
+                            height: 42px;
+                            border-radius: 12px;
+                            padding: 12px 28px;
+                            font-size: 16px;
+                            font-weight: bold;
+                            cursor: pointer;
+                            box-shadow: 0 8px 16px rgba(130, 20, 130, 0.85);
+                            transition: all 0.3s ease;
+                          "
+                          onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.3)'"
+                          onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 8px 16px rgba(0, 0, 0, 0.2)'"
+                        >
+                          ▶ Watch Now
+                        </button>
+                      </a>
+                    </center>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 260; --height: 121"
+                  >
+                    <img src="{% static 'images/apnacollege.png' %}" width="360"
+                    height="430" loading="lazy" alt="The Complete Camtasia
+                    Course for Content Creators" class="img-cover;
+                    style="image-cover">
+                  </figure>
+
+                  <div class="abs-badge">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="span">39 Lessions</span>
+                  </div>
+
+                  <div class="card-content">
+                    <span class="badge">Beginner to Advanced</span>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Java & DSA Course </a>
+                    </h3>
+
+                    <div class="wrapper">
+                      <div class="rating-wrapper">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+
+                      <p class="rating-text">(6.9 /7 Rating)</p>
+                    </div>
+
+                    <data class="price" value="35"> Mode: Online</data>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="library-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">Apna College</span>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="people-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">400K+ Views</span>
+                      </li>
+                    </ul>   
+                      <center>
+                      <a
+                        href="https://youtu.be/LusTv0RlnSU?si=4WBjyRJuMCM9rjaX"
+                        target="_blank">
+                    
+                        <button
+                          style="
+                            background: linear-gradient(
+                              135deg,
+                              rgb(22, 72, 181),
+                              rgb(0, 48, 181)
+                            );
+                            color: white;
+                            border: none;
+                            width: 300px;
+                            height: 42px;
+                            border-radius: 12px;
+                            padding: 12px 28px;
+                            font-size: 16px;
+                            font-weight: bold;
+                            cursor: pointer;
+                            box-shadow: 0 8px 16px rgba(130, 20, 130, 0.85);
+                            transition: all 0.3s ease;
+                          "
+                          onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.3)'"
+                          onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 8px 16px rgba(0, 0, 0, 0.2)'"
+                        >
+                          ▶ Watch Now
+                        </button>
+                      </a>
+                    </center>
+                  </div>
+                </div>
+              </li>
+                        
+                </ul>
+
+              <br>
+              
+               
+
+          <!-- <section class="section course" id="courses" aria-label="course">
+        <div class="container"> -->
+
+            <!-- <p class="section-subtitle" style="color: rgb(219, 23, 23);"><b> Popular Courses </b></p>
+
+          <h2 class="h2 section-title">Pick A Course To Get Started</h2> -->
+
+            <ul class="grid-list">
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 280; --height: 130"
+                  >
+                    <img src="{% static 'images/data.png' %}"
+                    width="364" height="430" loading="lazy" alt="Build
+                    Responsive Real- World Websites with HTML ,CSS , JavaScript
+                    and BootStrap" class="img-cover; style="img-cover">
+                  </figure>
+
+                  <div class="abs-badge">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="span">40 Lessions</span>
+                  </div>
+
+                  <div class="card-content">
+                    <span class="badge">Beginner to Advanced</span>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        >Data Analytics</a
+                      >
+                    </h3>
+
+                    <div class="wrapper">
+                      <div class="rating-wrapper">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+
+                      <p class="rating-text">(6.0/10 Rating)</p>
+                    </div>
+
+                    <data class="price" value="29">Mode: Online</data>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="library-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">Top VarSity</span>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="people-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">6 Millions+ Views</span>
+                      </li>
+                    </ul>
+                    <center>
+                      <a
+                        href="https://youtu.be/wrchVUd0E4g?si=t9epSKeUUYSlTtVN" target="_blank">
+                      
+                        <button
+                          style="
+                            background: linear-gradient(
+                              135deg,
+                              rgb(22, 72, 181),
+                              rgb(0, 48, 181)
+                            );
+                            color: white;
+                            border: none;
+                            width: 300px;
+                            height: 42px;
+                            border-radius: 12px;
+                            padding: 12px 28px;
+                            font-size: 16px;
+                            font-weight: bold;
+                            cursor: pointer;
+                            box-shadow: 0 8px 16px rgba(130, 20, 130, 0.85);
+                            transition: all 0.3s ease;
+                          "
+                          onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.3)'"
+                          onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 8px 16px rgba(0, 0, 0, 0.2)'"
+                        >
+                          ▶ Watch Now
+                        </button>
+                      </a>
+                    </center>
+                  </div>
+                </div>
+              </li>
+                        
+                
+
+              <li>
+                <div class="course-card">
+                  <figure
+                    datascience.webp
+                    class="card-banner img-holder"
+                    style="--width: 280; --height: 130"
+                  >
+                    <img src="{% static 'images/ds.png' %}"
+                    width="364" height="430" loading="lazy" alt="Java
+                    Programming Masterclass for Software Developers"
+                    class="img-cover; style="image-cover">
+                  </figure>
+
+                  <div class="abs-badge">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="span">5 Hours</span>
+                  </div>
+
+                  <div class="card-content">
+                    <span class="badge">Beginner to Advanced</span>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Data Science </a>
+                    </h3>
+
+                    <div class="wrapper">
+                      <div class="rating-wrapper">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+
+                      <p class="rating-text">(8 /9 Rating)</p>
+                    </div>
+
+                    <data class="price" value="49">Mode: Online</data>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="library-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">Krish Naik</span>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="people-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">1.4 Millions+ Views</span>
+                      </li>
+                    </ul>
+                    <center>
+                      <a
+                        href="https://youtu.be/LZzq1zSL1bs?si=_n7T8TaIVI0HrhI3" target="_blank">
+                      
+                        <button
+                          style="
+                            background: linear-gradient(
+                              135deg,
+                              rgb(22, 72, 181),
+                              rgb(0, 48, 181)
+                            );
+                            color: white;
+                            border: none;
+                            width: 300px;
+                            height: 42px;
+                            border-radius: 12px;
+                            padding: 12px 28px;
+                            font-size: 16px;
+                            font-weight: bold;
+                            cursor: pointer;
+                            box-shadow: 0 8px 16px rgba(130, 20, 130, 0.85);
+                            transition: all 0.3s ease;
+                          "
+                          onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.3)'"
+                          onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 8px 16px rgba(0, 0, 0, 0.2)'"
+                        >
+                          ▶ Watch Now
+                        </button>
+                      </a>
+                    </center>
+                  </div>
+                </div>
+              </li>
+                  
+
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 280; --height: 130"
+                  >
+                    <img src="{% static 'images/c#.png' %}" width="364"
+                    height="430" loading="lazy" alt="The Complete Camtasia
+                    Course for Content Creators" class="img-cover;
+                    style="image-cover">
+                  </figure>
+
+                  <div class="abs-badge">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="span">72 Lessions</span>
+                  </div>
+
+                  <div class="card-content">
+                    <span class="badge">Beginner to Advanced</span>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">C# ASP.Net Tutorial </a>
+                    </h3>
+
+                    <div class="wrapper">
+                      <div class="rating-wrapper">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+
+                      <p class="rating-text">(4.9 /7 Rating)</p>
+                    </div>
+
+                    <data class="price" value="35">Mode:Online</data>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="library-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">Coder Baba</span>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="people-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">150K+ Views</span>
+                      </li>
+                    </ul>
+                    <center>
+                      <a href="https://youtu.be/aLsDDTpxGSo?si=IZOtfIfTYkRzjmXW" target="_blank">
+                        <button
+                          style="
+                            background: linear-gradient(
+                              135deg,
+                              rgb(22, 72, 181),
+                              rgb(0, 48, 181)
+                            );
+                            color: white;
+                            border: none;
+                            width: 300px;
+                            height: 42px;
+                            border-radius: 12px;
+                            padding: 12px 28px;
+                            font-size: 16px;
+                            font-weight: bold;
+                            cursor: pointer;
+                            box-shadow: 0 8px 16px rgba(130, 20, 130, 0.85);
+                            transition: all 0.3s ease;
+                          "
+                          onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.3)'"
+                          onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 8px 16px rgba(0, 0, 0, 0.2)'"
+                        >
+                          ▶ Watch Now
+                        </button>
+                      </a>
+                    </center>
+                  </div>
+                </div>
+              </li>
+                  
+<br>
+<center> <a href="" class="btn has-before">
+              <span class="span">Explore more courses</span>
+
+              <ion-icon
+                name="arrow-forward-outline"
+                aria-hidden="true"
+              ></ion-icon>
+            </a>
+          </div>
+        </section>
+</center>
+        <!-- 
+        - #VIDEO
+      -->
+
+        <section
+          class="video has-bg-image"
+          aria-label="video"
+          style="background-image: url('{% static 'images/video-bg.png' %}')"
+        >
+        
+          <div class="container">
+            <div class="video-card">
+              <div
+                class="video-banner img-holder has-after"
+                style="--width: ; height: 481px"
+              >
+              <video
+  id="myVideo"
+  autoplay
+  muted
+  playsinline
+  loop
+  class="w-full h-auto object-cover rounded-[30px]"
+>
+  <source src="{% static 'videos/3d.mp4' %}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+
+                <button class="play-btn" aria-label="play video">
+                  <ion-icon name="play" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+
+              <img
+                src="{% static 'images/video-shape-1.png' %}"
+                width="1089"
+                height="605"
+                loading="lazy"
+                alt=""
+                class="shape video-shape-1"
+              />
+
+              <img
+                src="{% static 'images/video-shape-2.png' %}"
+                width="158"
+                height="174"
+                loading="lazy"
+                alt=""
+                class="shape video-shape-2"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #STATE
+      -->
+
+        <section class="section stats" aria-label="stats">
+          <div class="container">
+            <ul class="grid-list">
+              <li>
+                <div class="stats-card" style="--color: 170, 75%, 41%">
+                  <h3 class="card-title">50.3k</h3>
+
+                  <p class="card-text">Student Enrolled</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="stats-card" style="--color: 351, 83%, 61%">
+                  <h3 class="card-title">40.4K</h3>
+
+                  <p class="card-text">Class Completed</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="stats-card" style="--color: 260, 100%, 67%">
+                  <h3 class="card-title">100%</h3>
+
+                  <p class="card-text">Satisfaction Rate</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="stats-card" style="--color: 42, 94%, 55%">
+                  <h3 class="card-title">694+</h3>
+
+                  <p class="card-text">Top Instructors</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #BLOG
+      -->
+
+        <section
+          class="section blog has-bg-image"
+          id="blog"
+          aria-label="blog"
+          style="background-image: url('{% static 'images/blog-bg.svg' %}')"
+        >
+          <div class="container">
+            <p class="section-subtitle" style="color: rgb(20, 200, 113)">
+              <b>Upcoming Courses</b>>
+            </p>
+
+            <h2 class="h2 section-title">Get News With EduWeb</h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="blog-card">
+                  <figure
+                    class="card-banner img-holder has-after"
+                    style="--width: 370; --height: 370"
+                  >
+                    <img src="{% static 'images/ai3.jpg' %}" width="370"
+                    height="370" loading="lazy" alt="Become A Better Blogger:
+                    Content Planning" class="img-cover; style="image-cover">
+                  </figure>
+
+                  <div class="card-content">
+                    <a href="#" class="card-btn" aria-label="read more">
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+
+                    <a href="#" class="card-subtitle">Online & Offline</a>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        >Generative AI Development</a
+                      >
+                    </h3>
+                    <br />
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="calendar-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">Feb 08, 2025</span>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="chatbubbles-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">chat</span>
+                      </li>
+                    </ul>
+
+                    <p class="card-text">
+                      Adaptive learning powered by artificial intelligence.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <figure
+                    class="card-banner img-holder has-after"
+                    style="--width: 370; height: 370px"
+                  >
+                    <img src="{% static 'images/agile2.jpg' %}" width="370"
+                    height="420" loading="lazy" alt="Become A Better Blogger:
+                    Content Planning" class="img-cover; style="image-cover">
+                  </figure>
+
+                  <div class="card-content">
+                    <a href="#" class="card-btn" aria-label="read more">
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+
+                    <a href="#" class="card-subtitle">Online & Offline</a>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Agile and Scrum</a>
+                    </h3>
+                    <br />
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="calendar-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">Oct 10, 2021</span>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="chatbubbles-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">Com 09</span>
+                      </li>
+                    </ul>
+
+                    <p class="card-text">
+                      Agile workflows for dynamic environments
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <figure
+                    class="card-banner img-holder has-after"
+                    style="--width: 370; --height: 370"
+                  >
+                    <img src="{% static 'images/uiux.jpg' %}"" width="370"
+                    height="370" loading="lazy" alt="Become A Better Blogger:
+                    Content Planning" class="img-cover" />
+                  </figure>
+
+                  <div class="card-content">
+                    <a href="#" class="card-btn" aria-label="read more">
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+
+                    <a href="#" class="card-subtitle">Online & Offline</a>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">UI/UX Development</a>
+                    </h3>
+                    <br />
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="calendar-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">Jan 28, 2025</span>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="chatbubbles-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">chat</span>
+                      </li>
+                    </ul>
+
+                    <p class="card-text">
+                      Master the art of UX Design creation. A journey into UI/UX
+                      creation starts now.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="{% static 'images/blog-shape.png' %}"
+              width="186"
+              height="186"
+              loading="lazy"
+              alt=""
+              class="shape blog-shape"
+            />
+          </div>
+        </section>
+      </article>
+    </main>
+
+  
+
+    <footer
+      class="footer"
+      style="background-image: url('{% static '#Home' %}')"
+    >
+      <div class="footer-top section">
+        <div class="container grid-list">
+          <div class="footer-brand">
+            {% comment %} <a href="#" class="logo"> {% endcomment %}
+              {% comment %} <img
+                src="{% static 'images/logo-light.svg' %}"
+                width="162"
+                height="50"
+                alt="EduWeb logo"
+              /> {% endcomment %}
+
+              <h1
+                style="
+                  color: hsl(84, 39.90%, 45.70%);
+                  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                    'Helvetica Neue', sans-serif;
+                ">
+                <b>EduWeb</b>
+              </h1>
+            </a>
+
+            <p class="footer-brand-text">
+              Empowering the next generation with innovative learning solutions.
+            </p>
+
+            <div class="wrapper">
+              <span class="span">Add:</span>
+
+              <address class="address">411017 Pimpri-Chinchwad Pune</address>
+            </div>
+
+            <div class="wrapper">
+              <span class="span">Call:</span>
+
+              <a href="tel:+011234567890" class="footer-link"
+                >+02 883 9507 810</a
+              >
+            </div>
+
+            <div class="wrapper">
+              <span class="span">Email:</span>
+
+              <a href="mailto:info@eduweb.com" class="footer-link"
+                >info@edunext.com</a
+              >
+            </div>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Popular Courses</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Generative- Ai</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Agile and Scrum</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">UI/UX Development</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Python Full Stack Development</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Java Full Stack Development</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Marn & Mean Stack Development</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Quick Links</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">About</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Courses</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">FAQ's</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Sign In/Registration</a>
+            </li>
+
+            <li>
+              <!-- <a href="#" class="footer-link">Coming Soon</a>
+          </li> -->
+            </li>
+          </ul>
+
+          <div class="footer-list">
+            <p class="footer-list-title">Contacts</p>
+
+            <p class="footer-list-text">
+              Enter your email address to register to our newsletter
+              subscription
+            </p>
+
+            <form action="" class="newsletter-form">
+              <input
+                type="email"
+                name="email_address"
+                placeholder="Your email"
+                required
+                class="input-field"
+              />
+
+              <button type="submit" class="btn has-before">
+                <span class="span">Subscribe</span>
+
+                <ion-icon
+                  name="arrow-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </button>
+            </form>
+
+            <ul class="social-list" ;>
+              <li>
+                <a href="#" class="social-link" style="color: #1877f2">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link" style="color: #0a66c2">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link" style="color: #e4405f">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link" style="color: #1da1f2">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link" style="color: #cd201f">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            Copyright<a href="https://github.com/Karannannaware" target=_blank class="copyright-link"
+              >© Karannannaware. All Rights Reserved.</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back top top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="{% static 'assets/script.js' %}"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
