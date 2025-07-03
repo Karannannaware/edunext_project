@@ -44,7 +44,7 @@ This project showcases my backend development skills using Django, DRF, and API 
 ## 3. Courses API :
 ![api-course](https://github.com/user-attachments/assets/a2f9fd0f-86ea-417c-9751-30fcbc8f7a9f)
 ## 4.Instructors API 
-![Uploading api-instructor.png…]()
+![api-instructor](https://github.com/user-attachments/assets/3e8d5381-7323-43a1-ac73-522758c32973)
 ## 5. Api Root :
 ![apiroot](https://github.com/user-attachments/assets/bead08ec-05fd-4077-b30a-001a85555308)
 ##.6 Student Registration API:
