@@ -47,9 +47,9 @@ This project showcases my backend development skills using Django, DRF, and API 
 ![api-instructor](https://github.com/user-attachments/assets/3e8d5381-7323-43a1-ac73-522758c32973)
 ## 5. Api Root :
 ![apiroot](https://github.com/user-attachments/assets/bead08ec-05fd-4077-b30a-001a85555308)
-##.6 Student Registration API:
+## 6. Student Registration API:
 ![registation-api](https://github.com/user-attachments/assets/b57253d1-b617-49c7-9015-76314b6f1db8)
-## . 7 Custom Login API :
+## 7. Custom Login API :
 ![loginpage](https://github.com/user-attachments/assets/3b5edd33-80f0-458d-9dd5-4392855da4d7)
 ## 8. Student-API :
 ![studentlist](https://github.com/user-attachments/assets/9c7a97dc-9092-4b9a-9d5f-767fac5067f0)
