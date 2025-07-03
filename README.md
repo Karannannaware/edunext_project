@@ -37,20 +37,9 @@ This project showcases my backend development skills using Django, DRF, and API 
 ---
 
 ## 📸 Screenshots
+![home](https://github.com/user-attachments/assets/5f68784d-0537-40da-a858-a08a66832c3c)
 
-> ✅ Visual preview of key pages and APIs used
 
-| Page/API | Screenshot |
-|----------|------------|
-| Index Page | ![Index]("(https://github.com/Karannannaware/edunext_project/blob/6e874caba8e86f226a9977d6db1dfe2caf9eaca2/edunext_project/pictures/home.png)") |
-| Admin Dashboard | ![Admin](screenshot) |
-| Courses API | ![Courses](screenshots/api_courses.png) |
-| Instructors API | ![Instructors](screenshots/api_instructors.png) |
-| Students API | ![Students](screenshots/api_students.png) |
-| Student Registration API | ![Register](screenshots/api_register.png) |
-| Custom Login API | ![Login](screenshots/api_login.png) |
-
-> 📝 Place your screenshots inside a `screenshots/` folder in the GitHub repo for proper linking.
 
 ---
 
