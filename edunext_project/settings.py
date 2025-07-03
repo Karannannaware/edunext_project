@@ -32,7 +32,6 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',  # add this at top of middleware
     'django.middleware.security.SecurityMiddleware',
-    "whitenoise.middleware.WhiteNoiseMiddleware",
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -93,7 +92,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [ BASE_DIR / 'main' / 'static' ]
 STATIC_ROOT = BASE_DIR / 'staticfiles'  # required for collectstatic on Render
 
-STATICSTORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 # Media files (user uploaded)
@@ -119,8 +117,3 @@ if os.environ.get('RENDER'):
     ALLOWED_HOSTS = ['*']
 
 
-
-ALLOWED_HOSTS = ['eduweb.pythonanywhere.com']
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-MEDIA_URL = '/media/'
