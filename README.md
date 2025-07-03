@@ -53,6 +53,8 @@ This project showcases my backend development skills using Django, DRF, and API 
 ![loginpage](https://github.com/user-attachments/assets/3b5edd33-80f0-458d-9dd5-4392855da4d7)
 ## 8. Student-API :
 ![studentlist](https://github.com/user-attachments/assets/9c7a97dc-9092-4b9a-9d5f-767fac5067f0)
+## 9. Instructors Instance API :
+![instructor-instance](https://github.com/user-attachments/assets/31fb06b5-d3c4-4e8f-a69c-a104527d2585)
 
 
 
