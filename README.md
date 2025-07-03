@@ -42,7 +42,7 @@ This project showcases my backend development skills using Django, DRF, and API 
 
 | Page/API | Screenshot |
 |----------|------------|
-| Index Page | ![Index]("C:\Users\lenovo\OneDrive\Pictures\Screenshots\home.png") |
+| Index Page | ![Index]("") |
 | Admin Dashboard | ![Admin](screenshots/admin.png) |
 | Courses API | ![Courses](screenshots/api_courses.png) |
 | Instructors API | ![Instructors](screenshots/api_instructors.png) |
