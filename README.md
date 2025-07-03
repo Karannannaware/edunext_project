@@ -42,8 +42,8 @@ This project showcases my backend development skills using Django, DRF, and API 
 
 | Page/API | Screenshot |
 |----------|------------|
-| Index Page | ![Index]("") |
-| Admin Dashboard | ![Admin](screenshots/admin.png) |
+| Index Page | ![Index]("edunext_project/pictures/home.png") |
+| Admin Dashboard | ![Admin](screenshot) |
 | Courses API | ![Courses](screenshots/api_courses.png) |
 | Instructors API | ![Instructors](screenshots/api_instructors.png) |
 | Students API | ![Students](screenshots/api_students.png) |
