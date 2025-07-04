@@ -6,7 +6,7 @@ A smart and responsive online learning platform built with **Django** and **Djan
 
 ## 📄 Description
 
-**Edunext** is a full-stack educational platform for managing online courses. It allows users to register, log in, and interact with educational content using secure APIs. The admin panel enables easy course and user management.
+**EduWeb** is a full-stack educational platform for managing online courses. It allows users to register, log in, and interact with educational content using secure APIs. The admin panel enables easy course and user management.
 
 This project showcases my backend development skills using Django, DRF, and API integration — ideal for internships and developer roles.
 
